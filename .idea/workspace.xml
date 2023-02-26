@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd1cdbd3-be23-4dce-bde9-ad207ce8fc1c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/maicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/maicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/maicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/maicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/maicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/about_frame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/banner_image_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/banner_image_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/bg_pattern.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/blog/blog-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/blog/blog-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/blog/blog-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/blog/blog-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/blog/blog-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/blog/blog-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/person/person_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/person/person_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/person/person_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/person/person_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/services/service-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/services/service-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/services/service-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/world_pattern.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/google-maps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/animate/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/layouts/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/about.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/about_frame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/banner_image_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/banner_image_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg_pattern.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/blog/blog-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/blog/blog-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/blog/blog-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/blog/blog-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/blog/blog-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/blog/blog-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/person/person_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/person/person_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/person/person_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/person/person_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/services/service-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/services/service-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/services/service-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/world_pattern.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="DarkyenusTimeTracker">
+    <option name="totalTimeSeconds" value="4387" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MHqEuNevlGL7g1n06HTJpIcInX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Recep/Desktop/projects/contentful-repos/nuxt-static-blog/assets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\assets" />
+      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog" />
+      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\pages" />
+      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\static" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd1cdbd3-be23-4dce-bde9-ad207ce8fc1c" name="Changes" comment="" />
+      <created>1677434746654</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677434746654</updated>
+      <workItem from="1677434748074" duration="1297000" />
+      <workItem from="1677436139655" duration="4160000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

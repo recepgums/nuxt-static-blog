@@ -24,6 +24,15 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  git remote set-url origin https://github.com/recepgums/nuxt-static-blog.git
+
+  components: true,
+
+  css: [
+    '@/assets/css/bootstrap.css',
+    '@/assets/css/maicons.css',
+    '@/assets/vendor/animate/animate.css',
+  ],
   /*
   ** Customize the progress bar color
   */
@@ -53,7 +62,7 @@ module.exports = {
   },
   generate: {
     routes () {
-      return client.getEntries({ content_type: 'post' }).then(entries => {
+      return client.getEntries({ content_type: 'blog' }).then(entries => {
         return entries.items.map(entry => {
           return {
             route: entry.fields.slug,
