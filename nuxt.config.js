@@ -24,7 +24,6 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  git remote set-url origin https://github.com/recepgums/nuxt-static-blog.git
 
   components: true,
 
