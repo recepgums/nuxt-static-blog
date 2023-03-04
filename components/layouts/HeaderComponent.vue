@@ -2,7 +2,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="300">
       <div class="container">
-        <nuxt-link to="/" class="navbar-brand">Health Services in <span class="text-primary">Turkey</span></nuxt-link>
+        <nuxt-link to="/" class="navbar-brand">Health Services in <span class="text-primary" style="color: #3c7ec7!important;">Turkey</span></nuxt-link>
 
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
