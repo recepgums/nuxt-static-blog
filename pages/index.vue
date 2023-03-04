@@ -1,6 +1,26 @@
 <template>
   <div class="div">
-    <div class="page-section">
+
+    <div class="container">
+      <div class="page-banner home-banner">
+        <div class="row ssss align-items-center flex-wrap-reverse h-100"
+             style="background-image: url('img/banner_image.jpg'); ">
+          <div class="col-md-6 py-5 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+            <h1 class="mb-4">World-Class Health Services in Turkey</h1>
+            <h2 class="text-lg text-grey mb-5"> Discover the Beauty of Turkey and Transform Your Look</h2>
+<!--            <a href="#" class="btn btn-primary btn-split">Watch Video
+              <div class="fab"><span class="mai-play"></span></div>
+            </a>-->
+          </div>
+          <div class="col-md-6 py-5 wow zoomIn" style="visibility: visible; animation-name: zoomIn;">
+
+          </div>
+        </div>
+        <a href="#second-section" class="btn-scroll" data-role="smoothscroll"><span class="mai-arrow-down"></span></a>
+      </div>
+    </div>
+
+    <div class="page-section" id="second-section">
       <div class="container">
         <div class="row">
           <div class="col-sm-10">
@@ -25,28 +45,13 @@
         </div>
 
         <div class="row my-5">
-          <div class="col-lg-4 py-3" v-for="blog in blogs" :key="blog.id">
+          <div class="col-lg-4 col-sm-6 py-3" v-for="blog in blogs" :key="blog.id">
             <BlogOverviewCard :blog="blog"/>
           </div>
         </div>
-          <nav aria-label="Page Navigation">
-            <ul class="pagination justify-content-center">
-              <li class="page-item disabled">
-                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-              </li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
-              <li class="page-item active" aria-current="page">
-                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
-              <li class="page-item">
-                <a class="page-link" href="#">Next</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
       </div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -56,7 +61,7 @@ import BlogOverviewCard from "../components/BlogOverviewCard";
 export default {
   components: {BlogOverviewCard},
 
-  asyncData({params}) {
+  asyncData() {
     return client
       .getEntries({
         content_type: 'blog',
@@ -67,8 +72,11 @@ export default {
       })
       .catch(e => console.log(e));
   },
-  head: {
-    title: 'Latest Posts',
-  },
 };
 </script>
+<style>
+.ssss {
+  background-size: cover;
+  background-position: center;
+}
+</style>

@@ -1,14 +1,12 @@
 <template>
-  <div class="card-blog">
+  <div class="post-card">
     <div class="post-card-cover">
-      <nuxt-link :to="'/'+blog.fields.slug" class="post-thumb">
-        <img :src="blog.fields.thumbnail.fields.file.url" alt="">
+      <nuxt-link :to="'/'+blog.fields.slug">
+        <img :src="blog.fields.thumbnail.fields.file.url">
       </nuxt-link>
     </div>
-    <div class="body">
-      <h5 class="post-title">
-        <nuxt-link :to="'/'+blog.fields.slug">{{blog.fields.title}}</nuxt-link>
-      </h5>
+    <div class="post-card-content">
+        <h2 class="post-card-title">{{blog.fields.title}}</h2>
     </div>
   </div>
 </template>
@@ -16,12 +14,11 @@
 <script>
 export default {
   props:["blog"],
-  name: "BlogOverviewCard"
+  name: "BlogOverviewCard2"
 }
 </script>
 
 <style scoped>
-
 .post-cards-container {
   display: flex;
   flex-wrap: wrap;
@@ -42,7 +39,7 @@ export default {
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
 }
 
-.post-thumb img {
+.post-card-cover img {
   position: absolute;
   top: 0;
   left: 0;

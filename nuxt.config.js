@@ -6,14 +6,19 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'nuxt-static-blog-demo',
+    title: 'Experience Premier Health Services in Turkey - Transform Your Look Today',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
+        hid: 'title',
+        name: 'title',
+        content: 'Experience Premier Health Services in Turkey - Transform Your Look Today'
+      },
+      {
         hid: 'description',
         name: 'description',
-        content: 'A static blog built with Nuxt.js and Contentful'
+        content: 'Find information on medical treatments, hospitals, doctors, accommodation, and transportation in Turkey. Start planning your medical journey today!'
       }
     ],
     link: [

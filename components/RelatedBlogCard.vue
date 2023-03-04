@@ -26,5 +26,7 @@ export default {
 <style>
 .related-blog-img{
   width: 100%;
+  height: 75px;
+  min-height: 75px;
 }
 </style>

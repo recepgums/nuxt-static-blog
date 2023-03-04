@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd1cdbd3-be23-4dce-bde9-ad207ce8fc1c" name="Changes" comment="sad">
-      <change afterPath="$PROJECT_DIR$/components/BlogOverviewCard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/RelatedBlogCard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/elements/Tags.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/detail.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/blog/_slug.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="fd1cdbd3-be23-4dce-bde9-ad207ce8fc1c" name="Changes" comment="blog detail done">
+      <change afterPath="$PROJECT_DIR$/assets/img/banner_image.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/banner_image_3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/BlogOverviewCard2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/layouts/Footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/about/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/banner_image.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layouts/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/layouts/HeaderComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/BlogOverviewCard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/BlogOverviewCard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/RelatedBlogCard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/RelatedBlogCard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layouts/HeaderComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/layouts/HeaderComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/detail.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_slug.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/blog/_slug.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog/_slug.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +29,7 @@
     <execution />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="14896" />
+    <option name="totalTimeSeconds" value="24604" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,7 +51,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Recep/Desktop/projects/contentful-repos/nuxt-static-blog/components",
+    "last_opened_file_path": "C:/Users/Recep/Desktop/projects/contentful-repos/nuxt-static-blog/pages/faq",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -58,13 +60,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\pages\faq" />
+      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\pages" />
       <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\components" />
       <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\components\layouts" />
-      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\layouts" />
-      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\assets" />
-      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog" />
+      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\static\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\assets\img" />
       <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\pages\blog" />
       <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\static" />
     </key>
@@ -81,7 +84,7 @@
       <workItem from="1677436139655" duration="5630000" />
       <workItem from="1677743415574" duration="229000" />
       <workItem from="1677782464917" duration="4031000" />
-      <workItem from="1677834537607" duration="10686000" />
+      <workItem from="1677834537607" duration="23509000" />
     </task>
     <task id="LOCAL-00001" summary="sad">
       <created>1677444144770</created>
@@ -90,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677444144770</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="blog detail done">
+      <created>1677930026623</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677930026623</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +119,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sad" />
-    <option name="LAST_COMMIT_MESSAGE" value="sad" />
+    <MESSAGE value="blog detail done" />
+    <option name="LAST_COMMIT_MESSAGE" value="blog detail done" />
   </component>
 </project>
