@@ -50,7 +50,18 @@ export default {
   },
   computed: {
     renderedContent() {
-      return documentToHtmlString(this.page.fields.content);
+      let options = {
+        renderNode: {
+          'embedded-asset-block': (node) => {
+            const { url, title, description } = node.data.target.fields.file;
+            const mimeType = node.data.target.fields.file.contentType;
+
+            // Use the URL and other fields to render an <img> element
+            return `<img src="${url}" alt="${title}" title="${description}" type="${mimeType}" />`;
+          },
+        },
+      };
+      return documentToHtmlString(this.page.fields.content,options);
     }
   },
   data() {
