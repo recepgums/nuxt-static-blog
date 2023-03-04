@@ -25,186 +25,45 @@
         </div>
 
         <div class="row my-5">
-          <div class="col-lg-4 py-3">
-            <div class="card-blog">
-              <div class="header">
-                <div class="post-thumb">
-                  <img src="../assets/img/blog/blog-1.jpg" alt="">
-                </div>
-              </div>
-              <div class="body">
-                <h5 class="post-title"><a href="blog-details.html">Source of Content Inspiration</a></h5>
-                <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
-              </div>
-            </div>
+          <div class="col-lg-4 py-3" v-for="blog in blogs" :key="blog.id">
+            <BlogOverviewCard :blog="blog"/>
           </div>
-
-          <div class="col-lg-4 py-3">
-            <div class="card-blog">
-              <div class="header">
-                <div class="post-thumb">
-                  <img src="../assets/img/blog/blog-2.jpg" alt="">
-                </div>
-              </div>
-              <div class="body">
-                <h5 class="post-title"><a href="blog-details.html">Source of Content Inspiration</a></h5>
-                <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 py-3">
-            <div class="card-blog">
-              <div class="header">
-                <div class="post-thumb">
-                  <img src="../assets/img/blog/blog-3.jpg" alt="">
-                </div>
-              </div>
-              <div class="body">
-                <h5 class="post-title"><a href="blog-details.html">Source of Content Inspiration</a></h5>
-                <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 py-3">
-            <div class="card-blog">
-              <div class="header">
-                <div class="post-thumb">
-                  <img src="../assets/img/blog/blog-4.jpg" alt="">
-                </div>
-              </div>
-              <div class="body">
-                <h5 class="post-title"><a href="blog-details.html">Source of Content Inspiration</a></h5>
-                <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 py-3">
-            <div class="card-blog">
-              <div class="header">
-                <div class="post-thumb">
-                  <img src="../assets/img/blog/blog-5.jpg" alt="">
-                </div>
-              </div>
-              <div class="body">
-                <h5 class="post-title"><a href="blog-details.html">Source of Content Inspiration</a></h5>
-                <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 py-3">
-            <div class="card-blog">
-              <div class="header">
-                <div class="post-thumb">
-                  <img src="../assets/img/blog/blog-6.jpg" alt="">
-                </div>
-              </div>
-              <div class="body">
-                <h5 class="post-title"><a href="blog-details.html">Source of Content Inspiration</a></h5>
-                <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 py-3">
-            <div class="card-blog">
-              <div class="header">
-                <div class="post-thumb">
-                  <img src="../assets/img/blog/blog-1.jpg" alt="">
-                </div>
-              </div>
-              <div class="body">
-                <h5 class="post-title"><a href="blog-details.html">Source of Content Inspiration</a></h5>
-                <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 py-3">
-            <div class="card-blog">
-              <div class="header">
-                <div class="post-thumb">
-                  <img src="../assets/img/blog/blog-2.jpg" alt="">
-                </div>
-              </div>
-              <div class="body">
-                <h5 class="post-title"><a href="blog-details.html">Source of Content Inspiration</a></h5>
-                <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 py-3">
-            <div class="card-blog">
-              <div class="header">
-                <div class="post-thumb">
-                  <img src="../assets/img/blog/blog-3.jpg" alt="">
-                </div>
-              </div>
-              <div class="body">
-                <h5 class="post-title"><a href="blog-details.html">Source of Content Inspiration</a></h5>
-                <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
-              </div>
-            </div>
-          </div>
-
         </div>
-
-        <nav aria-label="Page Navigation">
-          <ul class="pagination justify-content-center">
-            <li class="page-item disabled">
-              <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">1</a></li>
-            <li class="page-item active" aria-current="page">
-              <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item">
-              <a class="page-link" href="#">Next</a>
-            </li>
-          </ul>
-        </nav>
-
+          <nav aria-label="Page Navigation">
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item active" aria-current="page">
+                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </div>
-    <section class="section">
-      <div class="container">
-        <div class="columns">
-          <div class="column is-offset-2 is-8">
-            <h1 class="title is-2">Latest Posts</h1>
-            <hr>
-
-            <h2
-              class="title is-4"
-              v-for="(post, index) in posts"
-              :key="index">
-              <nuxt-link :to="post.fields.slug">
-                {{ post.fields.title }}
-              </nuxt-link>
-            </h2>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
 </template>
 
 <script>
 import client from '~/plugins/contentful';
+import BlogOverviewCard from "../components/BlogOverviewCard";
 
 export default {
-  asyncData({ params }) {
+  components: {BlogOverviewCard},
+
+  asyncData({params}) {
     return client
       .getEntries({
         content_type: 'blog',
         order: '-sys.createdAt',
       })
       .then(entries => {
-        return { posts: entries.items };
+        return {blogs: entries.items};
       })
       .catch(e => console.log(e));
   },

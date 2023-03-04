@@ -1541,7 +1541,7 @@ a.text-dark:hover, a.text-dark:focus {
   position: absolute;
   top: 6px;
   right: 6px;
-} 
+}
 
 
 .card-pricing {
@@ -1678,7 +1678,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .card-blog .header .post-thumb img {
-  width: auto;
+  width: 100%;
   height: 100%;
 }
 

@@ -1,58 +1,6 @@
 <template>
   <div>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="300">
-        <div class="container">
-          <a href="#" class="navbar-brand">Seo<span class="text-primary">Gram.</span></a>
-
-          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent"
-                  aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="navbar-collapse collapsed" id="navbarContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="service.html">Services</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="blog.html">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="btn btn-primary ml-lg-2" href="#">Free Analytics</a>
-              </li>
-            </ul>
-          </div>
-
-        </div>
-      </nav>
-
-      <div class="container">
-        <div class="page-banner">
-          <div class="row justify-content-center align-items-center h-100">
-            <div class="col-md-6">
-              <nav aria-label="Breadcrumb">
-                <ul class="breadcrumb justify-content-center py-0 bg-transparent">
-                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                  <li class="breadcrumb-item active">Blog</li>
-                </ul>
-              </nav>
-              <h1 class="text-center">Blog</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-
+   <HeaderComponent/>
     <nuxt/>
 
     <footer class="page-footer bg-image" :style="{ backgroundImage: 'url(/img/world_pattern.svg)' }">
@@ -104,8 +52,12 @@
   </div>
 </template>
 <script>
+import HeaderComponent from '../components/layouts/HeaderComponent'
 export default {
   name: 'MyComponent',
+  components:{
+    HeaderComponent
+  },
   data() {
     return {
     }

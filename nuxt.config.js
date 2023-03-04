@@ -30,6 +30,7 @@ module.exports = {
   css: [
     '@/assets/css/bootstrap.css',
     '@/assets/css/maicons.css',
+    '@/assets/css/theme.css',
     '@/assets/vendor/animate/animate.css',
   ],
   /*
