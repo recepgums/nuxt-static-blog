@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd1cdbd3-be23-4dce-bde9-ad207ce8fc1c" name="Changes" comment="sitemap update">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +14,7 @@
     <execution />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="27869" />
+    <option name="totalTimeSeconds" value="28147" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,7 +70,7 @@
       <workItem from="1677743415574" duration="229000" />
       <workItem from="1677782464917" duration="4031000" />
       <workItem from="1677834537607" duration="28325000" />
-      <workItem from="1678004959740" duration="905000" />
+      <workItem from="1678004959740" duration="1650000" />
     </task>
     <task id="LOCAL-00001" summary="sad">
       <created>1677444144770</created>
@@ -113,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678005783389</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="sitemap update">
+      <created>1678005883208</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678005883208</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
