@@ -10,6 +10,7 @@ module.exports = {
     meta: [
       {charset: 'utf-8'},
       {name: 'viewport', content: 'width=device-width, initial-scale=1'},
+      {name: 'google-site-verification', content: 'f-IobVbpfviq5f3ScJ6yzG9avphyetAl5xurjw0Wd7k'},
       {
         hid: 'title',
         name: 'title',
