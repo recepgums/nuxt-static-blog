@@ -61,17 +61,53 @@ import BlogOverviewCard from "../../components/BlogOverviewCard";
 export default {
   components: {BlogOverviewCard, RelatedBlogCard},
   head() {
+    const schema = {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "headline": this.blog.title,
+      "datePublished": this.blog.createdAt,
+      "dateModified": this.blog.createdAt,
+      "author": {
+        "@type": "Person",
+        "name": 'Admin'
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": this.blog.thumbnail.fields.file.url,
+        "width": this.blog.thumbnail.fields.file.details.image.width,
+        "height": this.blog.thumbnail.fields.file.details.image.height
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Health Services in Turkey",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://healthservicesinturkey.com/favicon.ico",
+          "width": 600,
+          "height": 60
+        }
+      },
+      "description": this.blog.metaDescription
+    };
+
     return {
       title: this.blog.title,
       meta: [
-        {hid: 'description', name: 'description', content: this.summary},
+        {hid: 'description', name: 'description', content: this.blog.metaDescription},
         {hid: 'og:title', property: 'og:title', content: this.blog.title},
-        {hid: 'og:description', property: 'og:description', content: this.summary},
+        {hid: 'og:description', property: 'og:description', content: this.blog.metaDescription},
         {hid: 'og:image', property: 'og:image', content: this.blog.thumbnail.fields.file.url},
         {hid: 'twitter:title', name: 'twitter:title', content: this.blog.title},
-        {hid: 'twitter:description', name: 'twitter:description', content: this.summary},
+        {hid: 'twitter:description', name: 'twitter:description', content: this.blog.metaDescription},
         {hid: 'twitter:image', name: 'twitter:image', content: this.blog.thumbnail.fields.file.url},
       ],
+      script: [
+        {
+          hid: 'google-schema',
+          type: 'application/ld+json',
+          innerHTML: JSON.stringify(schema)
+        }
+      ]
     }
   },
   async asyncData({params}) {
@@ -82,7 +118,6 @@ export default {
     return {
       blog: blog.items[0].fields,
       content: blog.items[0].fields.content,
-      summary: documentToHtmlString(blog.items[0].fields.content.content[0])
     }
   },
   computed: {
