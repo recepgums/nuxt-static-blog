@@ -4,9 +4,7 @@
       <div class="row mb-5">
         <div class="col-lg-3 py-3">
           <h3>Health Services in <span class="text-primary">Turkey</span></h3>
-          <p>We are committed to providing you with accurate, reliable, and up-to-date information on medical treatments, hospitals, doctors, accommodation, and transportation in Turkey.
-            If you have any questions or feedback, please do not hesitate to contact us.
-            Our team of professionals is always here to assist you. We wish you a successful and pleasant medical journey in Turkey.</p>
+          <p>We are committed to providing you with accurate, reliable, and up-to-date information on medical treatments, hospitals, doctors, accommodation, and transportation in Turkey.</p>
 
           <div class="social-media-button" v-if="false">
             <a href="#"><span class="mai-logo-facebook-f"></span></a>

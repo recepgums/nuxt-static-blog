@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd1cdbd3-be23-4dce-bde9-ad207ce8fc1c" name="Changes" comment="robots.txt">
+    <list default="true" id="fd1cdbd3-be23-4dce-bde9-ad207ce8fc1c" name="Changes" comment="favicon schema update">
+      <change afterPath="$PROJECT_DIR$/app.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layouts/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/layouts/Footer.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +21,7 @@
     <execution />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="29907" />
+    <option name="totalTimeSeconds" value="32914" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,16 +49,17 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+    "vue.rearranger.settings.migration": "true",
+    "vuejs.nuxt.types-notification-shown": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog" />
+      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\assets\img" />
       <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\pages\faq" />
       <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\pages" />
       <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\components" />
-      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\components\layouts" />
-      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\static\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\assets\img" />
@@ -75,6 +83,9 @@
       <workItem from="1678004959740" duration="1650000" />
       <workItem from="1678302441957" duration="8000" />
       <workItem from="1680466698575" duration="363000" />
+      <workItem from="1680635456054" duration="1645000" />
+      <workItem from="1680637899767" duration="1983000" />
+      <workItem from="1680891809094" duration="1487000" />
     </task>
     <task id="LOCAL-00001" summary="sad">
       <created>1677444144770</created>
@@ -125,7 +136,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678005883208</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="footer update">
+      <created>1680637850576</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680637850576</updated>
+    </task>
+    <task id="LOCAL-00009" summary="favicon schema">
+      <created>1680638757095</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680638757095</updated>
+    </task>
+    <task id="LOCAL-00010" summary="favicon schema update">
+      <created>1680639502409</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680639502409</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +178,9 @@
     <MESSAGE value="sad" />
     <MESSAGE value="blog detail done" />
     <MESSAGE value="sitemap update" />
-    <option name="LAST_COMMIT_MESSAGE" value="sitemap update" />
+    <MESSAGE value="footer update" />
+    <MESSAGE value="favicon schema" />
+    <MESSAGE value="favicon schema update" />
+    <option name="LAST_COMMIT_MESSAGE" value="favicon schema update" />
   </component>
 </project>
