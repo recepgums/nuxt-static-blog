@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd1cdbd3-be23-4dce-bde9-ad207ce8fc1c" name="Changes" comment="schema update3">
+      <change beforePath="$PROJECT_DIR$/pages/blog/_slug.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog/_slug.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="DarkyenusTimeTracker">
+    <option name="totalTimeSeconds" value="42083" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MHqEuNevlGL7g1n06HTJpIcInX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Recep/Desktop/projects/contentful-repos/nuxt-static-blog/static/js",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true",
+    "vuejs.nuxt.types-notification-shown": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\static\js" />
+      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog" />
+      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\assets\img" />
+      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\pages\faq" />
+      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\assets\img" />
+      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\pages\blog" />
+      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\static" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd1cdbd3-be23-4dce-bde9-ad207ce8fc1c" name="Changes" comment="" />
+      <created>1677434746654</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677434746654</updated>
+      <workItem from="1677434748074" duration="1297000" />
+      <workItem from="1677436139655" duration="5630000" />
+      <workItem from="1677743415574" duration="229000" />
+      <workItem from="1677782464917" duration="4031000" />
+      <workItem from="1677834537607" duration="28325000" />
+      <workItem from="1678004959740" duration="1650000" />
+      <workItem from="1678302441957" duration="8000" />
+      <workItem from="1680466698575" duration="363000" />
+      <workItem from="1680635456054" duration="1645000" />
+      <workItem from="1680637899767" duration="1983000" />
+      <workItem from="1680891809094" duration="2327000" />
+      <workItem from="1680939502215" duration="13445000" />
+    </task>
+    <task id="LOCAL-00001" summary="sad">
+      <created>1677444144770</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677444144770</updated>
+    </task>
+    <task id="LOCAL-00002" summary="blog detail done">
+      <created>1677930026623</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677930026623</updated>
+    </task>
+    <task id="LOCAL-00003" summary="blog detail done">
+      <created>1677953732801</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677953732801</updated>
+    </task>
+    <task id="LOCAL-00004" summary="blog detail done">
+      <created>1677953991186</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677953991186</updated>
+    </task>
+    <task id="LOCAL-00005" summary="blog detail done">
+      <created>1677957228600</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677957228600</updated>
+    </task>
+    <task id="LOCAL-00006" summary="sitemap update">
+      <created>1678005783389</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678005783389</updated>
+    </task>
+    <task id="LOCAL-00007" summary="sitemap update">
+      <created>1678005883208</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678005883208</updated>
+    </task>
+    <task id="LOCAL-00008" summary="footer update">
+      <created>1680637850576</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680637850576</updated>
+    </task>
+    <task id="LOCAL-00009" summary="favicon schema">
+      <created>1680638757095</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680638757095</updated>
+    </task>
+    <task id="LOCAL-00010" summary="favicon schema update">
+      <created>1680639502409</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680639502409</updated>
+    </task>
+    <task id="LOCAL-00011" summary="version 2">
+      <created>1680895153819</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680895153819</updated>
+    </task>
+    <task id="LOCAL-00012" summary="schema update">
+      <created>1680940146961</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680940146961</updated>
+    </task>
+    <task id="LOCAL-00013" summary="schema update2">
+      <created>1680945471666</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680945471666</updated>
+    </task>
+    <task id="LOCAL-00014" summary="schema update3">
+      <created>1680953832063</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680953832063</updated>
+    </task>
+    <task id="LOCAL-00015" summary="schema update3">
+      <created>1680954432587</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680954432587</updated>
+    </task>
+    <task id="LOCAL-00016" summary="schema update3">
+      <created>1680954449485</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680954449485</updated>
+    </task>
+    <task id="LOCAL-00017" summary="schema update3">
+      <created>1680957306697</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1680957306697</updated>
+    </task>
+    <task id="LOCAL-00018" summary="schema update3">
+      <created>1680958124227</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1680958124227</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sad" />
+    <MESSAGE value="blog detail done" />
+    <MESSAGE value="sitemap update" />
+    <MESSAGE value="footer update" />
+    <MESSAGE value="favicon schema" />
+    <MESSAGE value="favicon schema update" />
+    <MESSAGE value="version 2" />
+    <MESSAGE value="schema update" />
+    <MESSAGE value="schema update2" />
+    <MESSAGE value="schema update3" />
+    <option name="LAST_COMMIT_MESSAGE" value="schema update3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/pages/blog/_slug.vue</url>
+          <line>224</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
