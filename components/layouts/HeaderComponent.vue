@@ -4,11 +4,11 @@
       <div class="container">
         <nuxt-link to="/" class="navbar-brand">Health Services in <span class="text-primary" style="color: #3c7ec7!important;">Turkey</span></nuxt-link>
 
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button v-if="false" class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="navbar-collapse collapsed" id="navbarContent">
+        <div v-if="false" class="navbar-collapse collapsed" id="navbarContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <nuxt-link class="nav-link" to="/about">About</nuxt-link>

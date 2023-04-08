@@ -38,13 +38,23 @@
             </div>
           </div>
         </div>
-        <div class="container">
-          <h4 class="widget-title">Related articles</h4>
-          <div class="divider"></div>
-          <div class="row text-left">
-            <BlogOverviewCard v-if="relatedBlogs.length>0" :blog="relatedBlog"
-                              class="col-sm-12 col-md-4 my-1"
-                              v-for="(relatedBlog,index) in relatedBlogs" :key="index"/>
+        <h3 class="mb-4">People Also Ask</h3>
+        <div class="accordion" id="faq-accordion">
+          <div class="card" v-for="(faq, index) in blog?.faq" :key="index">
+            <div class="card-header" :id="'faq-heading-'+index">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-bs-toggle="collapse" :data-bs-target="'#faq-collapse-' + index" :aria-expanded="index === 0" :aria-controls="'faq-collapse-' + index">
+                  <i class="fa fa-plus" v-if="index !== 0"></i>
+                  <i class="fa fa-minus" v-if="index === 0"></i>
+                  {{ faq.fields?.question }}
+                </button>
+              </h5>
+            </div>
+            <div :id="'faq-collapse-' + index" class="collapse show" :class="{'show': index === 0}" :aria-labelledby="'faq-heading-'+ index" data-parent="#faq-accordion">
+              <div class="card-body">
+                {{ faq.fields?.answer }}
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -57,7 +67,6 @@ import client from '~/plugins/contentful';
 import {documentToHtmlString} from '@contentful/rich-text-html-renderer';
 import RelatedBlogCard from "../../components/RelatedBlogCard";
 import BlogOverviewCard from "../../components/BlogOverviewCard";
-
 export default {
   components: {BlogOverviewCard, RelatedBlogCard},
   head() {
@@ -132,6 +141,10 @@ export default {
 
     return {
       title: this.blog.title,
+
+      link: [
+        { rel: 'canonical', href: 'https://healthservicesinturkey.com' + this.$route.path }
+      ],
       meta: [
         {hid: 'description', name: 'description', content: this.blog.metaDescription},
         {hid: 'og:title', property: 'og:title', content: this.blog.title},
@@ -208,8 +221,6 @@ export default {
 
   }
 };
-
-
 </script>
 <style>
 .blog-single-wrap {
@@ -218,5 +229,27 @@ export default {
 
 .post-thumb {
   height: 100% !important;
+}
+.accordion .card-header button.btn i.fa {
+  margin-right: 5px;
+}
+
+.accordion .card-header button.btn i.fa-minus {
+  display: none;
+}
+
+.accordion .card-header button.btn[aria-expanded="true"] i.fa-minus {
+  display: inline-block;
+}
+
+.accordion .card-header button.btn[aria-expanded="true"] i.fa-plus {
+  display: none;
+}
+.card-header button {
+  color:black;
+  font-weight: 600;
+}
+.blog-item .post-thumb img{
+  object-fit: contain;
 }
 </style>
