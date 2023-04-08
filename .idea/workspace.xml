@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd1cdbd3-be23-4dce-bde9-ad207ce8fc1c" name="Changes" comment="schema update2">
-      <change afterPath="$PROJECT_DIR$/assets/img/person/admin.png" afterDir="false" />
+    <list default="true" id="fd1cdbd3-be23-4dce-bde9-ad207ce8fc1c" name="Changes" comment="schema update3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/blog/_slug.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog/_slug.vue" afterDir="false" />
     </list>
@@ -18,7 +17,7 @@
     <execution />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="38741" />
+    <option name="totalTimeSeconds" value="39025" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -83,7 +82,7 @@
       <workItem from="1680635456054" duration="1645000" />
       <workItem from="1680637899767" duration="1983000" />
       <workItem from="1680891809094" duration="2327000" />
-      <workItem from="1680939502215" duration="9222000" />
+      <workItem from="1680939502215" duration="9740000" />
     </task>
     <task id="LOCAL-00001" summary="sad">
       <created>1677444144770</created>
@@ -176,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680945471666</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="schema update3">
+      <created>1680953832063</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680953832063</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +209,7 @@
     <MESSAGE value="version 2" />
     <MESSAGE value="schema update" />
     <MESSAGE value="schema update2" />
-    <option name="LAST_COMMIT_MESSAGE" value="schema update2" />
+    <MESSAGE value="schema update3" />
+    <option name="LAST_COMMIT_MESSAGE" value="schema update3" />
   </component>
 </project>
