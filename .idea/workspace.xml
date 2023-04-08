@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd1cdbd3-be23-4dce-bde9-ad207ce8fc1c" name="Changes" comment="favicon schema update">
-      <change afterPath="$PROJECT_DIR$/app.html" afterDir="false" />
+    <list default="true" id="fd1cdbd3-be23-4dce-bde9-ad207ce8fc1c" name="Changes" comment="schema update2">
+      <change afterPath="$PROJECT_DIR$/assets/img/person/admin.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layouts/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/layouts/Footer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/blog/_slug.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog/_slug.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +18,7 @@
     <execution />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="32914" />
+    <option name="totalTimeSeconds" value="38741" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,21 +35,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Recep/Desktop/projects/contentful-repos/nuxt-static-blog",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true",
-    "vuejs.nuxt.types-notification-shown": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Recep/Desktop/projects/contentful-repos/nuxt-static-blog&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;vuejs.nuxt.types-notification-shown&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog" />
@@ -85,7 +82,8 @@
       <workItem from="1680466698575" duration="363000" />
       <workItem from="1680635456054" duration="1645000" />
       <workItem from="1680637899767" duration="1983000" />
-      <workItem from="1680891809094" duration="1487000" />
+      <workItem from="1680891809094" duration="2327000" />
+      <workItem from="1680939502215" duration="9222000" />
     </task>
     <task id="LOCAL-00001" summary="sad">
       <created>1677444144770</created>
@@ -157,7 +155,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680639502409</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="version 2">
+      <created>1680895153819</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680895153819</updated>
+    </task>
+    <task id="LOCAL-00012" summary="schema update">
+      <created>1680940146961</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680940146961</updated>
+    </task>
+    <task id="LOCAL-00013" summary="schema update2">
+      <created>1680945471666</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680945471666</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +200,9 @@
     <MESSAGE value="footer update" />
     <MESSAGE value="favicon schema" />
     <MESSAGE value="favicon schema update" />
-    <option name="LAST_COMMIT_MESSAGE" value="favicon schema update" />
+    <MESSAGE value="version 2" />
+    <MESSAGE value="schema update" />
+    <MESSAGE value="schema update2" />
+    <option name="LAST_COMMIT_MESSAGE" value="schema update2" />
   </component>
 </project>

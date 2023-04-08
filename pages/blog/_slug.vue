@@ -61,14 +61,15 @@ import BlogOverviewCard from "../../components/BlogOverviewCard";
 export default {
   components: {BlogOverviewCard, RelatedBlogCard},
   head() {
-    const schema = {
+    const articleSchema = {
       "@context": "http://schema.org",
       "@type": "BlogPosting",
       "headline": this.blog.title,
-      "datePublished": this.blog.createdAt,
-      "dateModified": this.blog.createdAt,
+      "datePublished": this.sys.createdAt,
+      "dateModified": this.sys.updatedAt,
       "author": {
         "@type": "Person",
+        "url" : 'https://healthservicesinturkey.com/assets/img/person/admin.png',
         "name": 'Admin'
       },
       "image": {
@@ -90,6 +91,47 @@ export default {
       "description": this.blog.metaDescription
     };
 
+    const breadcrumbSchema = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://healthservicesinturkey.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://healthservicesinturkey.com/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": this.blog.title,
+          "item": "https://healthservicesinturkey.com/blog/dental-health-guide"
+        }
+      ]
+    };
+    const faqSchema = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": this.blog?.faq?.map(x => {
+        return {
+          "@type": "Question",
+          "name": x?.fields?.question,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": x?.fields?.answer
+          }
+        }
+      })
+    };
+
+
+
     return {
       title: this.blog.title,
       meta: [
@@ -105,7 +147,17 @@ export default {
         {
           hid: 'google-schema',
           type: 'application/ld+json',
-          json: schema
+          json: articleSchema
+        },
+        {
+          hid: 'google-schema',
+          type: 'application/ld+json',
+          json: breadcrumbSchema
+        },
+        {
+          hid: 'google-schema',
+          type: 'application/ld+json',
+          json: faqSchema
         }
       ]
     }
@@ -116,6 +168,7 @@ export default {
       'fields.slug': 'blog/' + params.slug
     })
     return {
+      sys: blog.items[0].sys,
       blog: blog.items[0].fields,
       content: blog.items[0].fields.content,
     }
