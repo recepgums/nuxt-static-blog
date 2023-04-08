@@ -130,8 +130,6 @@ export default {
       })
     };
 
-
-
     return {
       title: this.blog.title,
       meta: [
@@ -154,11 +152,11 @@ export default {
           type: 'application/ld+json',
           json: breadcrumbSchema
         },
-        {
+        ...(this?.blog?.faq?.length > 0 ? [{
           hid: 'google-schema',
           type: 'application/ld+json',
           json: faqSchema
-        }
+        }] : []),
       ]
     }
   },
