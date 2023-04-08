@@ -143,7 +143,7 @@ export default {
       title: this.blog.title,
 
       link: [
-        { rel: 'canonical', href: 'https://healthservicesinturkey.com' + this.$route.path }
+        { rel: 'canonical', href: 'https://healthservicesinturkey.com' + this.$route.path+'/' }
       ],
       meta: [
         {hid: 'description', name: 'description', content: this.blog.metaDescription},
