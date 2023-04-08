@@ -105,7 +105,7 @@ export default {
         {
           hid: 'google-schema',
           type: 'application/ld+json',
-          json: this.blog?.schema
+          json: schema
         }
       ]
     }
