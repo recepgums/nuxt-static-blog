@@ -84,7 +84,7 @@ module.exports = {
     routes: async () => {
       const {items} = await client.getEntries({content_type: 'blog'})
       return items.map(post => ({
-        url: `/blog/${post.fields.slug}`,
+        url: `/${post.fields.slug}`,
         lastmod: post.sys.updatedAt,
         changefreq: 'weekly',
         priority: 0.8,

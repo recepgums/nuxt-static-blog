@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd1cdbd3-be23-4dce-bde9-ad207ce8fc1c" name="Changes" comment="schema update3">
-      <change beforePath="$PROJECT_DIR$/pages/blog/_slug.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog/_slug.vue" afterDir="false" />
+    <list default="true" id="fd1cdbd3-be23-4dce-bde9-ad207ce8fc1c" name="Changes" comment="css .page-section">
+      <change afterPath="$PROJECT_DIR$/pages/blog/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/blog/_slug.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_slug.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +20,7 @@
     <execution />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="42083" />
+    <option name="totalTimeSeconds" value="43366" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Recep/Desktop/projects/contentful-repos/nuxt-static-blog/static/js",
+    "last_opened_file_path": "C:/Users/Recep/Desktop/projects/contentful-repos/nuxt-static-blog/pages",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -50,15 +54,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\pages" />
       <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\static\js" />
       <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog" />
       <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\assets\img" />
       <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\pages\faq" />
-      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\assets\img" />
       <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\pages\blog" />
+      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\pages" />
+      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\assets\img" />
       <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\static" />
     </key>
   </component>
@@ -81,7 +86,8 @@
       <workItem from="1680635456054" duration="1645000" />
       <workItem from="1680637899767" duration="1983000" />
       <workItem from="1680891809094" duration="2327000" />
-      <workItem from="1680939502215" duration="13445000" />
+      <workItem from="1680939502215" duration="14220000" />
+      <workItem from="1681474225462" duration="1434000" />
     </task>
     <task id="LOCAL-00001" summary="sad">
       <created>1677444144770</created>
@@ -209,7 +215,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680958124227</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="schema update3">
+      <created>1680958320100</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1680958320100</updated>
+    </task>
+    <task id="LOCAL-00020" summary="people also asked v-if=blog?.faq">
+      <created>1681474270553</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1681474270553</updated>
+    </task>
+    <task id="LOCAL-00021" summary="css .page-section">
+      <created>1681474720425</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1681474720425</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,15 +264,16 @@
     <MESSAGE value="schema update" />
     <MESSAGE value="schema update2" />
     <MESSAGE value="schema update3" />
-    <option name="LAST_COMMIT_MESSAGE" value="schema update3" />
+    <MESSAGE value="people also asked v-if=blog?.faq" />
+    <MESSAGE value="css .page-section" />
+    <option name="LAST_COMMIT_MESSAGE" value="css .page-section" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/pages/blog/_slug.vue</url>
+          <url>file://$PROJECT_DIR$/pages/_slug.vue</url>
           <line>224</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

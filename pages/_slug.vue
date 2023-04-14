@@ -63,10 +63,10 @@
 </template>
 
 <script>
-import client from '~/plugins/contentful';
+import client from '@/plugins/contentful';
 import {documentToHtmlString} from '@contentful/rich-text-html-renderer';
-import RelatedBlogCard from "../../components/RelatedBlogCard";
-import BlogOverviewCard from "../../components/BlogOverviewCard";
+import RelatedBlogCard from "../components/RelatedBlogCard.vue";
+import BlogOverviewCard from "../components/BlogOverviewCard.vue";
 export default {
   components: {BlogOverviewCard, RelatedBlogCard},
   head() {
@@ -120,7 +120,7 @@ export default {
           "@type": "ListItem",
           "position": 3,
           "name": this.blog.title,
-          "item": "https://healthservicesinturkey.com/blog/dental-health-guide"
+          "item": "https://healthservicesinturkey.com/"+this.blog.slug
         }
       ]
     };
@@ -176,7 +176,7 @@ export default {
   async asyncData({params}) {
     const blog = await client.getEntries({
       content_type: 'blog',
-      'fields.slug': 'blog/' + params.slug
+      'fields.slug': params.slug
     })
     return {
       sys: blog.items[0].sys,

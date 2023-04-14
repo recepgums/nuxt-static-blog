@@ -34,7 +34,7 @@
 
 <script>
 import client from '@/plugins/contentful';
-import BlogOverviewCard from "../components/BlogOverviewCard.vue";
+import BlogOverviewCard from "../../components/BlogOverviewCard.vue";
 
 export default {
   components: {BlogOverviewCard},
