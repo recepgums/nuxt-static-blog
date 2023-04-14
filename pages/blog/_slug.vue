@@ -38,8 +38,8 @@
             </div>
           </div>
         </div>
-        <h3 class="mb-4">People Also Ask</h3>
-        <div class="accordion" id="faq-accordion">
+        <h3 class="mb-4" v-if="blog?.faq">People Also Ask</h3>
+        <div class="accordion" id="faq-accordion" v-if="blog?.faq">
           <div class="card" v-for="(faq, index) in blog?.faq" :key="index">
             <div class="card-header" :id="'faq-heading-'+index">
               <h5 class="mb-0">
