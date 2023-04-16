@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd1cdbd3-be23-4dce-bde9-ad207ce8fc1c" name="Changes" comment="css .page-section">
-      <change afterPath="$PROJECT_DIR$/pages/blog/index.vue" afterDir="false" />
+    <list default="true" id="fd1cdbd3-be23-4dce-bde9-ad207ce8fc1c" name="Changes" comment="blog/_slug to _slug">
+      <change afterPath="$PROJECT_DIR$/assets/img/banner_image_hsit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/appointment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/banner_image_hsit.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/blog/_slug.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_slug.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/blog/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +22,7 @@
     <execution />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="43366" />
+    <option name="totalTimeSeconds" value="44986" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,12 +57,13 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\pages" />
+      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\static\img" />
+      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\assets\img" />
       <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\static\js" />
       <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog" />
-      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\assets\img" />
-      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\pages\faq" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\static\img" />
       <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\pages\blog" />
       <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\pages" />
       <recent name="C:\Users\Recep\Desktop\projects\contentful-repos\nuxt-static-blog\assets\img" />
@@ -87,7 +90,8 @@
       <workItem from="1680637899767" duration="1983000" />
       <workItem from="1680891809094" duration="2327000" />
       <workItem from="1680939502215" duration="14220000" />
-      <workItem from="1681474225462" duration="1434000" />
+      <workItem from="1681474225462" duration="2239000" />
+      <workItem from="1681632867365" duration="1491000" />
     </task>
     <task id="LOCAL-00001" summary="sad">
       <created>1677444144770</created>
@@ -236,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681474720425</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="blog/_slug to _slug">
+      <created>1681475778472</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1681475778472</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +277,8 @@
     <MESSAGE value="schema update3" />
     <MESSAGE value="people also asked v-if=blog?.faq" />
     <MESSAGE value="css .page-section" />
-    <option name="LAST_COMMIT_MESSAGE" value="css .page-section" />
+    <MESSAGE value="blog/_slug to _slug" />
+    <option name="LAST_COMMIT_MESSAGE" value="blog/_slug to _slug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
